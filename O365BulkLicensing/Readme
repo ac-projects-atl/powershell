@@ -1,0 +1,6 @@
+Script to bulk license account
+Fill out CSV with users, locations, and SKU
+To get SKU information, run get-MsolAccountSku while connected to azure ad for the customer to see the available SKUs
+Format should be MOD:SKU example as follows
+  contoso:ENTERPRISEPACK
+Locations are 2 digit codes, for us should just be US
