@@ -1,0 +1,9 @@
+Unattended setup for ESXi Hosts - Allows configuration of a USB to install ESXi with predetermined attributes without input from technician
+
+Procedure:
+Modify all necessary parts of the script. Comments in script explain what each section does.
+
+Create USB with RUFUS and the vendor provided ESXi image
+Place customized ks.cfg on the root of the USB drive
+Open the USB stick and edit Boot.cfg. Replace the following line kernelopt=runweasel by kernelopt=ks=usb:/ks.cfg
+
