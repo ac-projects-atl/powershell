@@ -1,0 +1,6 @@
+Create folder on server in target new environment for Kaseya onboarding
+Place PSEXEC.exe along with batch file, txt file, and Kaseya installer for the client in this folder
+Modify batch file to target the txt file and kaseya installer correctly
+Modify txt file to have either IP addresses or DNS computer names(if available) of the environment.
+If unsure of DNS names or IP addresses, simply target every IP address in the subnet, it will then push to every windows machine that responds so long as the credentials are valid.
+In a workgroup scenario, will need to push more manually.
